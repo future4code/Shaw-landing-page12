@@ -1,3 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: #bf8f65;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #bf8f65;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 25vw;
+    margin-left: 10vw;
+}
+
+.menu-principal a {
+    color: #bf8f65;
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: 0.1em;
+
+}
+
+header form {
+    margin-left: 6vw;
+    padding-top: 12vh;
+}
+
+main {
+    background-color: #f2f1df;
+    color: #bf8f65;
+    /* color: #a64c; */
+}
+
 .rodape{
     display: flex;
     justify-content: center;
@@ -6,4 +45,8 @@
     gap: 0.5vw;
     color: black;
     width: 100%;
+}
+
+.rodape img {
+    display: flex;
 }
