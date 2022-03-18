@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header .img-header img{
@@ -51,9 +52,69 @@ header form {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     background-color: #f2f1df;
     color: #bf8f65;
-    /* color: #a64c; */
+    height: 77vh;
+}
+
+.barra-de-busca {
+    text-align: end;
+    border-color: #bf8f65;
+    padding-top: 2vh;
+}
+
+.chamada-main {
+    text-align: center;
+}
+
+.principal-main {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%
+}
+
+.principal-main h1 {
+    color:#bf8f65;
+}
+
+.principal-main h1:hover {
+    color: black;
+}
+
+.imagem-main {
+    border: 1px solid #bf8f65;
+    box-shadow: 5px 5px 12px #00000082;
+    border-radius: 2%;
+}
+
+.principal-main a {
+    text-decoration: none;
+}
+
+.mercado-main {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+    padding-top: 4vh;
+}
+
+.imagem-mercado {
+    border: 2px solid #bf8f65;
+    box-shadow: 5px 5px 12px #00000082;
+    border-radius: 2%;
+    transition: all linear 300ms;
+}
+
+.imagem-mercado:hover {
+    transform: scale(1.08);
+    border-radius: 0;
 }
 
 .rodape{
@@ -64,8 +125,11 @@ main {
     gap: 0.5vw;
     color: black;
     width: 100%;
+    padding: 1vh;
+    border: 1px solid #bf8f65;
 }
 
 .rodape img {
     display: flex;
 }
+
