@@ -5,6 +5,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+header .img-header img{
+    border: 0.01em solid #bf8f65;
+    border-radius: 31%;
+    border-style:dashed;
+    margin-top: 0.2em;
+    margin-left: 0.1em;
+}
 header {
     color: #bf8f65;
     display: flex;
@@ -27,9 +34,21 @@ header {
 
 }
 
+.menu-principal a:hover {
+color: black;
+}
+
 header form {
     margin-left: 6vw;
     padding-top: 12vh;
+}
+
+.separar-icone-carrinho i{
+   margin-right: 0.5vw;
+}
+
+.separar-icone-carrinho:hover{
+    color: black;
 }
 
 main {
