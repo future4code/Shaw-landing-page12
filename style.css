@@ -133,3 +133,45 @@ main {
     display: flex;
 }
 
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+    header {
+        font-size: smaller;
+        width: 100%;
+        height: 20%;
+    }
+
+    header img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .menu-principal {
+        gap: 2vw;
+        margin-left: 3vw;
+    }
+
+    main {
+        height: 70%;
+    }
+
+    main img {
+        height: 120px;
+        width: 180px;
+    }
+
+    .principal-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-main {
+        margin-top: 50px;
+    }
+
+    .rodape {
+        margin-top: 10%;
+    }
+
+
+}
