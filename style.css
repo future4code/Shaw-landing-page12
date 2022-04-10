@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .img-header img{
+    border: 0.01em solid #bf8f65;
+    border-radius: 31%;
+    border-style:dashed;
+    margin-top: 0.2em;
+    margin-left: 0.1em;
+}
+header {
+    color: #bf8f65;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #bf8f65;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 25vw;
+    margin-left: 10vw;
+}
+
+.menu-principal a {
+    color: #bf8f65;
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: 0.1em;
+
+}
+
+.menu-principal a:hover {
+color: black;
+}
+
+header form {
+    margin-left: 6vw;
+    padding-top: 12vh;
+}
+
+.separar-icone-carrinho i{
+   margin-right: 0.5vw;
+}
+
+.separar-icone-carrinho:hover{
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f1df;
+    color: #bf8f65;
+    height: 77vh;
+}
+
+.barra-de-busca {
+    text-align: end;
+    border-color: #bf8f65;
+    padding-top: 2vh;
+}
+
+.chamada-main {
+    text-align: center;
+}
+
+.principal-main {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%
+}
+
+.principal-main h1 {
+    color:#bf8f65;
+}
+
+.principal-main h1:hover {
+    color: black;
+}
+
+.imagem-main {
+    border: 1px solid #bf8f65;
+    box-shadow: 5px 5px 12px #00000082;
+    border-radius: 2%;
+}
+
+.principal-main a {
+    text-decoration: none;
+}
+
+.mercado-main {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+    padding-top: 4vh;
+}
+
+.imagem-mercado {
+    border: 2px solid #bf8f65;
+    box-shadow: 5px 5px 12px #00000082;
+    border-radius: 2%;
+    transition: all linear 300ms;
+}
+
+.imagem-mercado:hover {
+    transform: scale(1.08);
+    border-radius: 0;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5vw;
+    color: black;
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid #bf8f65;
+}
+
+.rodape img {
+    display: flex;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+    header {
+        font-size: smaller;
+        width: 100%;
+        height: 20%;
+    }
+
+    header img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .menu-principal {
+        gap: 2vw;
+        margin-left: 3vw;
+    }
+
+    main {
+        height: 70%;
+    }
+
+    main img {
+        height: 120px;
+        width: 180px;
+    }
+
+    .principal-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-main {
+        margin-top: 50px;
+    }
+
+    .rodape {
+        margin-top: 10%;
+    }
+
+
+}
